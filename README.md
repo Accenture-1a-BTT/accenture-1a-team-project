@@ -1,18 +1,21 @@
 
-Workflow Steps: 
+# Workflow Steps
 
-Access the notebook via Google Drive or Colab at any time.
+## 1. Accessing the Notebook
+- Access the notebook anytime via **Google Drive** or **Google Colab**.  
+- Only **one person** should make major edits at a time to avoid conflicts.  
+- Communicate changes on **Slack / Teams / GitHub** before editing.  
 
-Only one person should make major edits at a time to avoid conflicts—communicate changes on Slack/Teams/GitHub.
+## 2. Dataset Setup & Usage
 
-2. Dataset Setup & Usage
-a. Initial Download (One-time)
-Only one member downloads/extracts the Kaggle dataset using their own API key in Colab.
+### a. Initial Download (One-time)
+- One team member downloads and extracts the **Kaggle dataset** using their own API key in Colab.  
+- Move the extracted CSV files (`Fake.csv`, `True.csv`, etc.) into the shared Drive folder.  
 
-Move the extracted CSV files (Fake.csv, True.csv, etc.) into our shared Drive folder.
+### b. Accessing the Dataset
+- Everyone mounts Google Drive in their Colab notebook using:
 
-b. Accessing the Dataset
-Everyone mounts Google Drive in their Colab notebook using:
+
 
 ```
 python
@@ -25,24 +28,24 @@ Load dataset files from the shared folder, e.g.:
 python
 import pandas as pd
 df = pd.read_csv('/content/drive/MyDrive/[shared-folder-name]/Fake.csv')
-(Replace [shared-folder-name] with the exact folder name.)
 ```
-No need for everyone to set up Kaggle API keys after this point.
 
-c. (If Data Is Updated)
-If we need updated data, one person repeats the download step and updates the Drive folder.
+*(Replace `[shared-folder-name]` with the exact folder name.)*  
 
-3. GitHub Version Control
-a. Saving Notebooks to GitHub
-To save the latest changes: In Colab, click File > Save a copy to GitHub
+- No need for every member to set up Kaggle API keys after this step.  
 
-Commit to the correct repository and filename (e.g., FakeNews_EDA.ipynb)
+### c. Updating Data
+- If updated data is needed, one member repeats the **download + Drive update** process.  
 
-Add a descriptive commit message
+## 3. GitHub Version Control
 
-b. Editing & Sync
-Always open the latest notebook version from GitHub before making changes.
+### a. Saving Notebooks to GitHub
+- In Colab: **File > Save a copy to GitHub**  
+- Commit to the correct repository and filename (e.g., `FakeNews_EDA.ipynb`)  
+- Always add a **descriptive commit message**  
 
-After making edits, repeat “Save a copy to GitHub”—only one person at a time to avoid overwriting.
-
-Communicate with teammates before major changes to coordinate editing.
+### b. Editing & Sync
+- Always open the latest notebook version from GitHub before editing.  
+- After making changes, save again with **“Save a copy to GitHub”**.  
+- Only **one person edits at a time** to avoid overwriting.  
+- Communicate with teammates before major changes.  
