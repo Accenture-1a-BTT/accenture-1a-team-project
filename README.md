@@ -1,22 +1,43 @@
-\#Fake News Categorization
+# Fake News Classification - Accenture Team 1A
 
-⚠️ \_Update the above title with your AI Studio Challenge Project name. Remove all guidance notes and examples in this template before finalizing your README.\_
+**Break Through Tech AI Studio - Fall 2025**
 
-\---
+---
 
-\#\#\# 👥 \*\*Team Members\*\*
+### 👥 **Team Members**
 
-\*\*Example:\*\*
+| Name | GitHub Handle | Contribution |
+| :--- | :--- | :--- |
+| **Steven Dong** | @[INSERT HANDLE] | Feature engineering, model evaluation, and results analysis |
+| **Koshish Shrestha** | @[INSERT HANDLE] | Data cleaning pipeline, duplicate removal, and leakage prevention |
+| **Siying Lin** | @[INSERT HANDLE] | Exploratory Data Analysis (EDA), visualization, and documentation |
+| **Ishita Gabhane** | @[INSERT HANDLE] | Baseline modeling (Logistic Regression) and performance metrics |
+| **Xiomara Serpa** | @[INSERT HANDLE] | Advanced modeling (Neural Networks) and hyperparameter tuning |
+| **Chinyere Ugwuanyi** | @[INSERT HANDLE] | Project coordination, business context integration, and presentation |
 
-| Name             | GitHub Handle | Contribution                                                             |  
-|------------------|---------------|--------------------------------------------------------------------------|  
-| Taylor Nguyen    | @taylornguyen | Data exploration, visualization, overall project coordination            |  
-| Jordan Ramirez   | @jramirez     | Data collection, exploratory data analysis (EDA), dataset documentation  |  
-| Amina Hassan     | @aminahassan  | Data preprocessing, feature engineering, data validation                 |  
-| Priya Mehta      | @pmehta       | Model selection, hyperparameter tuning, model training and optimization  |  
-| Chris Park       | @chrispark    | Model evaluation, performance analysis, results interpretation           |
+---
 
-\---
+## 🎯 **Project Highlights**
+
+* **High-Performance Classification:** Achieved **98.33% accuracy** using a Random Forest model with TF-IDF features, successfully distinguishing between real and fake news articles.
+* **Business-Centric Solution:** Developed a scalable content moderation tool to support Accenture's Trust & Safety goals, mitigating legal liability and reputational risk.
+* **Bias Mitigation:** Identified and removed a critical source of data leakage (the "Reuters" tag) which appeared in 99.8% of real news, ensuring the model learned linguistic patterns rather than source shortcuts.
+* **Robust Preprocessing:** Implemented a rigorous cleaning pipeline that removed over 5,000 duplicate texts and handled empty content to ensure data quality.
+
+---
+
+## 👩🏽‍💻 **Setup and Installation**
+
+### **Repository Structure**
+```text
+├── data/                # Dataset files (excluded from repo via .gitignore)
+├── notebooks/           # Jupyter notebooks for EDA and Modeling
+├── src/                 # Python scripts for modular code
+│   ├── preprocessing.py # Cleaning and tokenization functions
+│   └── evaluation.py    # Metric calculation and plotting functions
+├── images/              # Images used in this README
+├── requirements.txt     # Python dependencies
+└── README.md            # Project documentation
 
 \#\# 🎯 \*\*Project Highlights\*\*
 
@@ -118,3 +139,4 @@ Cite relevant papers, articles, or resources that supported your project.
 \#\# 🙏 \*\*Acknowledgements\*\* (Optional but encouraged)
 
 Thank your Challenge Advisor, host company representatives, TA, and others who supported your project.
+
