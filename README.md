@@ -88,8 +88,6 @@ Ensure the dataset files (True.csv and Fake.csv) are placed in the data/ directo
 \---
 ## 🏗️ **Project Overview**
 
-**Describe:**
-
 - **Connection to the Break Through Tech AI Program**  
   This project was developed as part of the **Break Through Tech AI Program (AI Studio)**, where participants collaborate on industry-relevant machine learning challenges and apply AI techniques to real-world problems.
 
@@ -107,7 +105,6 @@ Ensure the dataset files (True.csv and Fake.csv) are placed in the data/ directo
 
 ## 📊 **Data Exploration**
 
-**You might consider describing the following (as applicable):**
 
 - **Dataset Description**  
   We utilized a dataset containing approximately **45,000 news articles**, split into two CSV files:
@@ -138,15 +135,9 @@ Ensure the dataset files (True.csv and Fake.csv) are placed in the data/ directo
   - Addressed dataset bias to avoid artificially inflated model performance  
   - Ensured preprocessing steps did not introduce data leakage  
 
-**Potential visualizations to include:**
-- Text length histogram  
-- Class distribution chart  
-
 ---
 
 ## 🧠 **Model Development**
-
-**You might consider describing the following (as applicable):**
 
 - **Models Used**
   - **Baseline Model:** Logistic Regression (simple and interpretable)  
@@ -175,7 +166,6 @@ Ensure the dataset files (True.csv and Fake.csv) are placed in the data/ directo
 
 ## 📈 **Results & Key Findings**
 
-**You might consider describing the following (as applicable):**
 
 - **Performance Metrics**
   - Accuracy  
@@ -198,10 +188,6 @@ Ensure the dataset files (True.csv and Fake.csv) are placed in the data/ directo
   - Balanced dataset reduced class bias  
   - Bias removal improved generalization  
   - Very low false negatives observed, minimizing missed fake news cases  
-
-**Potential visualizations to include:**
-- Model comparison bar chart *(Slide 27)*  
-- Confusion matrix for the best model *(Slide 24)*  
 
 ---
 
@@ -237,4 +223,5 @@ Special thanks to our **Accenture Challenge Advisors**:
 - Isabel Heard  
 
 And the **Break Through Tech AI Program team** for their guidance and support throughout the semester.
+
 
