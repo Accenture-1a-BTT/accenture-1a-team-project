@@ -104,6 +104,7 @@ Ensure the dataset files (True.csv and Fake.csv) are placed in the data/ directo
   - Assumed article text contained sufficient signals for classification  
   - Addressed dataset bias to avoid artificially inflated model performance  
   - Ensured preprocessing steps did not introduce data leakage  
+![EDA Visualization](Screenshot%202025-12-15%20140429.png)
 
 ---
 
@@ -188,6 +189,7 @@ Special thanks to our **Accenture Challenge Advisors**:
 - Isabel Heard  
 
 And the **Break Through Tech AI Program team** for their guidance and support throughout the semester.
+
 
 
 
