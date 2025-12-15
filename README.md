@@ -159,6 +159,8 @@ Ensure the dataset files (True.csv and Fake.csv) are placed in the data/ directo
   - Bias removal improved generalization  
   - Very low false negatives observed, minimizing missed fake news cases  
 
+![Model Visualization](image.png)
+
 ---
 
 ## 🚀 **Next Steps**
@@ -186,6 +188,7 @@ Special thanks to our **Accenture Challenge Advisors**:
 - Isabel Heard  
 
 And the **Break Through Tech AI Program team** for their guidance and support throughout the semester.
+
 
 
 
