@@ -178,13 +178,6 @@ Ensure the dataset files (True.csv and Fake.csv) are placed in the data/ directo
 
 ---
 
-## 📝 **License**
-
-This project is licensed under the **MIT License**.  
-See the `LICENSE` file for details.
-
----
-
 ## 🙏 **Acknowledgements**
 
 Special thanks to our **Accenture Challenge Advisors**:
@@ -193,6 +186,7 @@ Special thanks to our **Accenture Challenge Advisors**:
 - Isabel Heard  
 
 And the **Break Through Tech AI Program team** for their guidance and support throughout the semester.
+
 
 
 
