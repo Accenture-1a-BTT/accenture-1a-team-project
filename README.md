@@ -8,12 +8,12 @@
 
 | Name | GitHub Handle | Contribution |
 | :--- | :--- | :--- |
-| **Steven Dong** | Feature engineering, model evaluation, and results analysis |
-| **Koshish Shrestha** | Data cleaning pipeline, duplicate removal, EDA, Baseline Modeling |
-| **Siying Lin** |  Exploratory Data Analysis (EDA), visualization, Sentiment Analysis, Modeling |
-| **Ishita Gabhane** | EDA, Data Cleaning and performance metrics |
-| **Xiomara Serpa** | Advanced modeling (Neural Networks) and hyperparameter tuning |
-| **Chinyere Ugwuanyi** | Feature Engineering, EDA |
+| **Steven Dong** | @stevendong22 |Feature engineering, model evaluation, and results analysis |
+| **Koshish Shrestha** |@desmosy |Data cleaning pipeline, duplicate removal, EDA, Baseline Modeling |
+| **Siying Lin** | @Skypiea041 |Exploratory Data Analysis (EDA), visualization, Sentiment Analysis, Modeling |
+| **Ishita Gabhane** | @ishitagb |EDA, Data Cleaning and performance metrics |
+| **Xiomara Serpa** | @Xioma-S |Advanced modeling (Neural Networks) and hyperparameter tuning |
+| **Chinyere Ugwuanyi** | @ChinyereEU |Feature Engineering, EDA |
 
 ---
 
