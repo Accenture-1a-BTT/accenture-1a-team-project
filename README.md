@@ -28,36 +28,6 @@
 
 ## 👩🏽‍💻 **Setup and Installation**
 
-# Fake News Classification - Accenture Team 1A
-
-**Break Through Tech AI Studio - Fall 2025**
-
----
-
-### 👥 **Team Members**
-
-| Name | GitHub Handle | Contribution |
-| :--- | :--- | :--- |
-| **Steven Dong** | @[INSERT HANDLE] | Feature engineering, model evaluation, and results analysis |
-| **Koshish Shrestha** | @[INSERT HANDLE] | Data cleaning pipeline, duplicate removal, and leakage prevention |
-| **Siying Lin** | @[INSERT HANDLE] | Exploratory Data Analysis (EDA), visualization, and documentation |
-| **Ishita Gabhane** | @[INSERT HANDLE] | Baseline modeling (Logistic Regression) and performance metrics |
-| **Xiomara Serpa** | @[INSERT HANDLE] | Advanced modeling (Neural Networks) and hyperparameter tuning |
-| **Chinyere Ugwuanyi** | @[INSERT HANDLE] | Project coordination, business context integration, and presentation |
-
----
-
-## 🎯 **Project Highlights**
-
-* **High-Performance Classification:** Achieved **98.33% accuracy** using a Random Forest model with TF-IDF features, successfully distinguishing between real and fake news articles.
-* **Business-Centric Solution:** Developed a scalable content moderation tool to support Accenture's Trust & Safety goals, mitigating legal liability and reputational risk.
-* **Bias Mitigation:** Identified and removed a critical source of data leakage (the "Reuters" tag) which appeared in 99.8% of real news, ensuring the model learned linguistic patterns rather than source shortcuts.
-* **Robust Preprocessing:** Implemented a rigorous cleaning pipeline that removed over 5,000 duplicate texts and handled empty content to ensure data quality.
-
----
-
-## 👩🏽‍💻 **Setup and Installation**
-
 ### **Repository Structure**
 ```text
 ├── data/                # Dataset files (excluded from repo via .gitignore)
@@ -223,5 +193,6 @@ Special thanks to our **Accenture Challenge Advisors**:
 - Isabel Heard  
 
 And the **Break Through Tech AI Program team** for their guidance and support throughout the semester.
+
 
 
