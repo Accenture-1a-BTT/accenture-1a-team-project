@@ -70,20 +70,6 @@
 └── README.md            # Project documentation
 ```
 
-
-\#\# 🎯 \*\*Project Highlights\*\*
-
-\*\*Example:\*\*
-
-\- Developed a machine learning model using \`\[model type/technique\]\` to address \`\[challenge project task\]\`.  
-\- Achieved \`\[key metric or result\]\`, demonstrating \`\[value or impact\]\` for \`\[host company\]\`.  
-\- Generated actionable insights to inform business decisions at \`\[host company or stakeholders\]\`.  
-\- Implemented \`\[specific methodology\]\` to address industry constraints or expectations.
-
-\---
-
-\#\# 👩🏽‍💻 \*\*Setup and Installation\*\*
-
 ## 🚀 Installation Instructions
 
 ### 1. Clone the Repository
@@ -251,3 +237,4 @@ Special thanks to our **Accenture Challenge Advisors**:
 - Isabel Heard  
 
 And the **Break Through Tech AI Program team** for their guidance and support throughout the semester.
+
